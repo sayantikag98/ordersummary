@@ -1,6 +1,3 @@
-
-
-  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,14 +6,16 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Order summary card</title>
   <link rel = "stylesheet" href = "css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header></header>
   <main>
     <svg class = "background-svg" xmlns="http://www.w3.org/2000/svg" width="1440" height="437"><path fill="#D6E1FF" fill-rule="evenodd" d="M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z"/></svg>
     <div class = "main-body-text">
-      <div class = "top-image">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450" height="220">
+        <svg class = "top-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450" height="220">
           <defs>
             <path id="a" d="M0 0h450v220H0z"/>
           </defs>
@@ -61,11 +60,10 @@
               <path fill="#698DFF" d="M38.092 50.8c-4.725 0-4.734 7.331 0 7.331 4.735 0 4.735-7.33 0-7.33zm357 8c-4.725 0-4.734 7.331 0 7.331 4.735 0 4.735-7.33 0-7.33zm-60.38-16.883a1.933 1.933 0 00-.467-.806l-.376-.284a1.837 1.837 0 00-.918-.257h-.514a1.34 1.34 0 00-.706.165c-.23.07-.435.2-.596.376a1.43 1.43 0 00-.377.586c-.115.217-.169.461-.156.706l.065.495c.086.304.247.58.468.806l.376.285c.279.161.595.246.917.247h.514c.245.014.49-.04.707-.156.226-.075.43-.204.596-.376a2.07 2.07 0 00.532-1.3c-.018-.157-.046-.322-.064-.487zm-219.15-8.568c-2.955 0-2.964 4.582 0 4.582 2.963 0 2.954-4.582 0-4.582zm264.333 44.49c-2.955 0-2.955 4.583 0 4.583 2.954 0 2.954-4.582 0-4.582z"/>
             </g></g>
         </svg>
-      </div>
     
-      <h1>Order Summary</h1>
+      <p class = "order-summary">Order Summary</p>
 
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+      <p class = "description">You can now listen to millions of songs, audiobooks, and podcasts on any 
       device anywhere you like!</p>
 
       <div class = "plan-box">
@@ -75,16 +73,16 @@
 
       </div>
 
-      <div class = "plan"><h3>Annual Plan</h3>
-      <p>$59.99/year</p>
+      <div class = "plan"><p class = "annual-plan">Annual Plan</p>
+      <p class = "price">$59.99/year</p>
       </div>
-      <div class = "change"><a href = "#">Change</a></div>
+      <div class = "change"><a href = "#"><p>Change</p></a></div>
     </div>
 
       
-      <div class = "payment"><h3>Proceed to Payment</h3></div>
+      <div class = "payment"><p class = "pay">Proceed to Payment</p></div>
       
-      <div class = "cancel-order">Cancel Order</div>
+      <div class = "cancel-order"><p>Cancel Order</p></div>
     </div>
 </main>
 <footer>

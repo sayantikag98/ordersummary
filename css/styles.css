@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
 }
 main {
   background-color: hsl(225, 100%, 94%);
@@ -11,6 +13,10 @@ main {
 footer {
   background-color: hsl(225, 100%, 94%);
   width: 1440px;
+}
+
+.top-image {
+  border-radius: 15px 15px 0 0;
 }
 
 .attribution {
@@ -27,15 +33,47 @@ footer {
 
 .image-music {
   display: inline-block;
-  margin: 3px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 4.5% 0 4.5% 4.5%;
 }
 
 .plan {
   display: inline-block;
+  position: relative;
+  right: 15%;
+  top: 5%;
+  bottom: 5%;
+  text-align: left;
+  line-height: 5px;
+  padding: 3%;
+}
+
+.annual-plan {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+.price {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
 }
 
 .change {
   display: inline-block;
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: 5%;
+  padding: 1.5% 0;
+  font-weight: 700;
+}
+
+.change a:hover {
+  color: mediumslateblue;
+  text-decoration: none;
 }
 
 .main-body-text {
@@ -52,19 +90,58 @@ footer {
 }
 
 .plan-box {
-  margin: 10% 10%;
+  margin: 5% 10%;
   background-color: hsl(225, 100%, 98%);
   border-radius: 10px;
+  position: relative;
 }
 
 .payment {
   border-radius: 10px;
-  margin: 10% 10%;
-  padding: 0.3% 1%;
+  margin: 6% 10%;
   background-color: hsl(245, 75%, 52%);
-  box-shadow: hsl(225, 100%, 98%);
+  box-shadow: 10px 30px 8px hsl(225, 100%, 98%);
+  font-weight: 700;
+  color: white;
+}
+
+.pay {
+  padding: 4% 0;
+  border-radius: 10px;
+}
+
+.payment p.pay:hover {
+  padding: 4% 0;
+  background-color: mediumslateblue;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .cancel-order {
-  margin-top: 10px;
+  position: relative;
+  bottom: 0.3px;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel-order p:hover {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+.order-summary {
+  margin: 8% 10% 4.5%;
+  font-weight: 900;
+  font-size: 30px;
+  color: hsl(223, 47%, 23%);
+}
+
+.description {
+  margin: 2.5% 10% 2.5%;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  font-size: medium;
 }
