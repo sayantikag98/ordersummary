@@ -1,7 +1,70 @@
+body {
+  margin: 0;
+}
+main {
+  background-color: hsl(225, 100%, 94%);
+  height: 1000px;
+  width: 1440px;
+  position: relative;
+}
+
+footer {
+  background-color: hsl(225, 100%, 94%);
+  width: 1440px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.background-svg {
+  position: relative;
+}
+
+.image-music {
+  display: inline-block;
+  margin: 3px;
+}
+
+.plan {
+  display: inline-block;
+}
+
+.change {
+  display: inline-block;
+}
+
+.main-body-text {
+  text-align: center;
+  width: 450px;
+  height: 660px;
+  background-color: white;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  right: 35%;
+  bottom: 10%;
+  border-radius: 15px;
+}
+
+.plan-box {
+  margin: 10% 10%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+
+.payment {
+  border-radius: 10px;
+  margin: 10% 10%;
+  padding: 0.3% 1%;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: hsl(225, 100%, 98%);
+}
+
+.cancel-order {
+  margin-top: 10px;
 }
