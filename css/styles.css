@@ -1,11 +1,14 @@
+/* TAG SELECTORS */
+
 body {
   margin: 0;
   font-size: 16px;
   font-family: "Red Hat Display", sans-serif;
 }
+
 main {
   background-color: hsl(225, 100%, 94%);
-  height: 1000px;
+  height: 900px;
   width: 1440px;
   position: relative;
 }
@@ -15,14 +18,18 @@ footer {
   width: 1440px;
 }
 
-.top-image {
-  border-radius: 15px 15px 0 0;
+/* CLASS SELECTORS */
+
+.annual-plan {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
@@ -31,34 +38,17 @@ footer {
   position: relative;
 }
 
-.image-music {
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  padding: 4.5% 0 4.5% 4.5%;
-}
-
-.plan {
-  display: inline-block;
+.cancel-order {
   position: relative;
-  right: 15%;
-  top: 5%;
-  bottom: 5%;
-  text-align: left;
-  line-height: 5px;
-  padding: 3%;
+  bottom: 0.3px;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
 }
 
-.annual-plan {
+.cancel-order p:hover {
   font-weight: 700;
   color: hsl(223, 47%, 23%);
-}
-
-.price {
-  font-weight: 500;
-  color: hsl(224, 23%, 55%);
+  cursor: pointer;
 }
 
 .change {
@@ -76,6 +66,24 @@ footer {
   text-decoration: none;
 }
 
+.description {
+  margin: 2.5% 10% 2.5%;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  font-size: medium;
+}
+
+.image-music {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 4.5% 0 4.5% 4.5%;
+}
+
 .main-body-text {
   text-align: center;
   width: 450px;
@@ -89,11 +97,16 @@ footer {
   border-radius: 15px;
 }
 
-.plan-box {
-  margin: 5% 10%;
-  background-color: hsl(225, 100%, 98%);
+.order-summary {
+  margin: 8% 10% 4.5%;
+  font-weight: 900;
+  font-size: 30px;
+  color: hsl(223, 47%, 23%);
+}
+
+.pay {
+  padding: 4% 0;
   border-radius: 10px;
-  position: relative;
 }
 
 .payment {
@@ -105,11 +118,6 @@ footer {
   color: white;
 }
 
-.pay {
-  padding: 4% 0;
-  border-radius: 10px;
-}
-
 .payment p.pay:hover {
   padding: 4% 0;
   background-color: mediumslateblue;
@@ -117,31 +125,29 @@ footer {
   cursor: pointer;
 }
 
-.cancel-order {
+.plan {
+  display: inline-block;
   position: relative;
-  bottom: 0.3px;
-  font-weight: 700;
-  color: hsl(224, 23%, 55%);
+  right: 15%;
+  top: 5%;
+  bottom: 5%;
+  text-align: left;
+  line-height: 5px;
+  padding: 3%;
 }
 
-.cancel-order p:hover {
-  font-weight: 700;
-  color: hsl(223, 47%, 23%);
-  cursor: pointer;
+.plan-box {
+  margin: 5% 10%;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  position: relative;
 }
 
-.order-summary {
-  margin: 8% 10% 4.5%;
-  font-weight: 900;
-  font-size: 30px;
-  color: hsl(223, 47%, 23%);
-}
-
-.description {
-  margin: 2.5% 10% 2.5%;
-  text-align: center;
-  line-height: 20px;
+.price {
   font-weight: 500;
   color: hsl(224, 23%, 55%);
-  font-size: medium;
+}
+
+.top-image {
+  border-radius: 15px 15px 0 0;
 }
